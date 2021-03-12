@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  jenkins:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    container_name: jenkins-provider-acc
+    environment:
+      JAVA_OPTS: "-Djenkins.install.runSetupWizard=false"
