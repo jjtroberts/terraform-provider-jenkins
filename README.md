@@ -12,7 +12,7 @@ This is a community provider and is not supported by Hashicorp.
 
 ## Installation
 
-This provider has been published to the Terraform Registry at https://registry.terraform.io/providers/taiidani/jenkins. Please visit the registry for documentation and installation instructions.
+This provider has been published to the Terraform Registry at https://registry.terraform.io/providers/jjtroberts/jenkins. Please visit the registry for documentation and installation instructions.
 
 ## Developing the Provider
 
